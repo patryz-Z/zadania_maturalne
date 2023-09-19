@@ -26,7 +26,6 @@ int main(void)
 	auto DecimalToBinary = [](int decimal)
 	{
 		string binary_string = "";
-		int binary = 0;
 		int base = 1;
 
 		while (decimal > 0)
